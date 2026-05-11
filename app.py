@@ -53,7 +53,9 @@ import cloudscraper
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 
-ITEMS_DIR = Path(os.path.abspath(__file__)).parent.parent / "NotEnoughUpdates-REPO" / "items"
+ITEMS_DIR = Path(os.path.abspath(__file__)).parent / "items"
+print(f"[DEBUG] ITEMS_DIR set to: {ITEMS_DIR}")
+print(f"[DEBUG] ITEMS_DIR exists: {ITEMS_DIR.exists()}")
 
 # Set page configuration
 st.set_page_config(
@@ -187,6 +189,7 @@ def get_item_data(product_id, fetch_icon=True):
     
     json_path = ITEMS_DIR / f"{product_id}.json"
     if not json_path.exists():
+        print(f"[Icon] JSON not found: {json_path}")
         return result
         
     try:
@@ -200,14 +203,18 @@ def get_item_data(product_id, fetch_icon=True):
             return result
             
         info_urls = data.get("info", [])
+        print(f"[Icon] {product_id} - info_urls: {info_urls[:50] if info_urls else 'EMPTY'}")
         if not isinstance(info_urls, list):
+            print(f"[Icon] {product_id} - info not a list, type: {type(info_urls)}")
             return result
             
         fandom_url = next((url for url in info_urls if "fandom.com" in url), None)
         
         if not fandom_url:
+            print(f"[Icon] {product_id} - no fandom URL in info")
             return result
         
+        print(f"[Icon] {product_id} - fetching from: {fandom_url}")
         try:
             # Try with cloudscraper first
             scraper = cloudscraper.create_scraper()
@@ -216,9 +223,14 @@ def get_item_data(product_id, fetch_icon=True):
             
             img_meta = soup.find('meta', property='og:image')
             if img_meta and img_meta.get('content'):
-                result["icon_url"] = img_meta['content']
+                icon_url = img_meta['content']
+                print(f"[Icon] {product_id} - SUCCESS (cloudscraper): {icon_url[:60]}")
+                result["icon_url"] = icon_url
                 return result
+            else:
+                print(f"[Icon] {product_id} - cloudscraper: no og:image meta found")
         except Exception as scraper_error:
+            print(f"[Icon] {product_id} - cloudscraper failed: {scraper_error}")
             # Fallback: try with plain requests
             try:
                 import requests
@@ -226,14 +238,17 @@ def get_item_data(product_id, fetch_icon=True):
                 soup = BeautifulSoup(response.text, 'html.parser')
                 img_meta = soup.find('meta', property='og:image')
                 if img_meta and img_meta.get('content'):
-                    result["icon_url"] = img_meta['content']
+                    icon_url = img_meta['content']
+                    print(f"[Icon] {product_id} - SUCCESS (requests): {icon_url[:60]}")
+                    result["icon_url"] = icon_url
                     return result
+                else:
+                    print(f"[Icon] {product_id} - requests: no og:image meta found")
             except Exception as requests_error:
-                print(f"[Icon Fetch] Failed for {product_id}: cloudscraper={scraper_error}, requests={requests_error}")
+                print(f"[Icon] {product_id} - requests failed: {requests_error}")
             
         return result
     except Exception as e:
-        import traceback
         print(f"[Icon Fetch Error] {product_id}: {e}")
         return result
 
