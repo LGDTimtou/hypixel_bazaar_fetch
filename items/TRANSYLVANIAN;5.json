@@ -1,0 +1,29 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§aEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{transylvanian:5},id:\"TRANSYLVANIAN;5\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Transylvanian V\",1:\"§7Heal §c3❤§7/s per enemy within\",2:\"§a10 §7blocks, up to §c30❤§7/s.\",3:\"\",4:\"§7Applicable on: §9Helmet\",5:\"§7Use this on an item in an Anvil\",6:\"§7to apply it!\",7:\"\",8:\"§6Source:\",9:\"§aIV-V: §7Hemovibe Collection\",10:\"\",11:\"§6Applied To:\",12:\"§7- §fHelmet\",13:\"\",14:\"§a§lUNCOMMON\"],Name:\"§aEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§9Transylvanian V",
+    "§7Heal §c3❤§7/s per enemy within",
+    "§a10 §7blocks, up to §c30❤§7/s.",
+    "",
+    "§7Applicable on: §9Helmet",
+    "§7Use this on an item in an Anvil",
+    "§7to apply it!",
+    "",
+    "§6Source:",
+    "§aIV-V: §7Hemovibe Collection",
+    "",
+    "§6Applied To:",
+    "§7- §fHelmet",
+    "",
+    "§a§lUNCOMMON"
+  ],
+  "internalname": "TRANSYLVANIAN;5",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": []
+}

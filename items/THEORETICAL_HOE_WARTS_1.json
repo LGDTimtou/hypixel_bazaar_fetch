@@ -1,0 +1,37 @@
+{
+  "itemid": "minecraft:iron_hoe",
+  "displayname": "§aNewton Nether Wart Hoe Mk. I",
+  "nbttag": "{ExtraAttributes:{id:\"THEORETICAL_HOE_WARTS_1\",levelable_exp:0.0D,levelable_lvl:1},HideFlags:254,ItemModel:\"minecraft:iron_hoe\",Unbreakable:1B,display:{Lore:[0:\"§7Level §a1 §8-> §62   §8(0/1k)\",1:\"§f§l§m                         §r §e0§6%\",2:\"\",3:\"§eRight-click to view recipes!\",4:\"\",5:\"§8This item can be reforged!\",6:\"§4❣ §cRequires §aFarming Skill 10§c.\",7:\"§4❣ §cRequires §aGarden Level 10§c.\",8:\"§a§lUNCOMMON HOE\"],Name:\"§aNewton Nether Wart Hoe Mk. I\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Level §a1 §8-> §62   §8(0/1k)",
+    "§f§l§m                         §r §e0§6%",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aFarming Skill 10§c.",
+    "§4❣ §cRequires §aGarden Level 10§c.",
+    "§a§lUNCOMMON HOE"
+  ],
+  "internalname": "THEORETICAL_HOE_WARTS_1",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Newton_Nether_Warts_Hoe",
+    "https://wiki.hypixel.net/Newton_Nether_Warts_Hoe"
+  ],
+  "recipe": {
+    "A1": "NETHER_STALK:64",
+    "A2": "NETHER_STALK:64",
+    "A3": "NETHER_STALK:64",
+    "B1": "NETHER_STALK:64",
+    "B2": "THEORETICAL_HOE:1",
+    "B3": "NETHER_STALK:64",
+    "C1": "NETHER_STALK:64",
+    "C2": "NETHER_STALK:64",
+    "C3": "NETHER_STALK:64"
+  }
+}

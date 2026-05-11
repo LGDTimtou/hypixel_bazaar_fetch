@@ -1,0 +1,29 @@
+{
+  "itemid": "minecraft:iron_axe",
+  "displayname": "§aMelon Dicer Mk. I",
+  "nbttag": "{ExtraAttributes:{id:\"MELON_DICER\",levelable_exp:0.0D,levelable_lvl:1},HideFlags:254,ItemModel:\"minecraft:iron_axe\",Unbreakable:1B,display:{Lore:[0:\"§7Melon Slice Fortune: §6+4\",1:\"§7Farming Wisdom: §3+1\",2:\"\",3:\"§7Level §a1 §8-> §62   §8(0/1k)\",4:\"§f§l§m                         §r §e0§6%\",5:\"\",6:\"§eRight-click to view recipes!\",7:\"\",8:\"§8This item can be reforged!\",9:\"§4❣ §cRequires §aFarming Skill 10§c.\",10:\"§4❣ §cRequires §aGarden Level 6§c.\",11:\"§a§lUNCOMMON AXE\"],Name:\"§aMelon Dicer Mk. I\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Melon Slice Fortune: §6+4",
+    "§7Farming Wisdom: §3+1",
+    "",
+    "§7Level §a1 §8-> §62   §8(0/1k)",
+    "§f§l§m                         §r §e0§6%",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aFarming Skill 10§c.",
+    "§4❣ §cRequires §aGarden Level 6§c.",
+    "§a§lUNCOMMON AXE"
+  ],
+  "internalname": "MELON_DICER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Melon_Dicer",
+    "https://wiki.hypixel.net/Melon_Dicer"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "itemid": "minecraft:enchanted_book",
+  "displayname": "§fEnchanted Book",
+  "nbttag": "{ExtraAttributes:{enchantments:{triple_strike:2},id:\"TRIPLE_STRIKE;2\"},HideFlags:254,ItemModel:\"minecraft:enchanted_book\",display:{Lore:[0:\"§9Triple-Strike II\",1:\"§7Increases melee damage dealt by\",2:\"§a20% §7for the first three hits\",3:\"§7on a mob.\",4:\"\",5:\"§6Source:\",6:\"§aI-IV: §7Enchantment Table,\",7:\"§7Experiments\",8:\"\",9:\"§6Applied To:\",10:\"§7- §fSword\",11:\"§7- §fFishing Weapon\",12:\"§7- §fLongsword\",13:\"§7- §fGauntlet\",14:\"\",15:\"§6Conflicts:\",16:\"§7- §cFirst Strike\",17:\"\",18:\"§f§lCOMMON\"],Name:\"§fEnchanted Book\"},ench:[]}",
+  "damage": 0,
+  "lore": [
+    "§9Triple-Strike II",
+    "§7Increases melee damage dealt by",
+    "§a20% §7for the first three hits",
+    "§7on a mob.",
+    "",
+    "§6Source:",
+    "§aI-IV: §7Enchantment Table,",
+    "§7Experiments",
+    "",
+    "§6Applied To:",
+    "§7- §fSword",
+    "§7- §fFishing Weapon",
+    "§7- §fLongsword",
+    "§7- §fGauntlet",
+    "",
+    "§6Conflicts:",
+    "§7- §cFirst Strike",
+    "",
+    "§f§lCOMMON"
+  ],
+  "internalname": "TRIPLE_STRIKE;2",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "",
+  "info": []
+}

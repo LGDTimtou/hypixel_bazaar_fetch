@@ -2,3 +2,8 @@ requests
 psycopg2-binary
 python-dotenv
 tqdm
+streamlit
+pandas
+plotly
+cloudscraper
+beautifulsoup4

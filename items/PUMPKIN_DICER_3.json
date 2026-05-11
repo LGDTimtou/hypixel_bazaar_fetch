@@ -1,0 +1,46 @@
+{
+  "itemid": "minecraft:diamond_axe",
+  "displayname": "§5Pumpkin Dicer Mk. III",
+  "nbttag": "{ExtraAttributes:{id:\"PUMPKIN_DICER_3\",levelable_exp:0.0D,levelable_lvl:1},HideFlags:254,ItemModel:\"minecraft:diamond_axe\",Unbreakable:1B,display:{Lore:[0:\"§7Pumpkin Fortune: §6+4\",1:\"§7Farming Wisdom: §3+1\",2:\"\",3:\"§7Level §a1 §8-> §62   §8(0/1k)\",4:\"§f§l§m                         §r §e0§6%\",5:\"\",6:\"§7§o\\\"III is better than the II version\\\" -\",7:\"§7§oCEO of PumpkinDicer LLC.\",8:\"\",9:\"§8This item can be reforged!\",10:\"§4❣ §cRequires §aFarming Skill 20§c.\",11:\"§4❣ §cRequires §aGarden Level 4§c.\",12:\"§5§lEPIC AXE\"],Name:\"§5Pumpkin Dicer Mk. III\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Pumpkin Fortune: §6+4",
+    "§7Farming Wisdom: §3+1",
+    "",
+    "§7Level §a1 §8-> §62   §8(0/1k)",
+    "§f§l§m                         §r §e0§6%",
+    "",
+    "§7§o\"III is better than the II version\" -",
+    "§7§oCEO of PumpkinDicer LLC.",
+    "",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aFarming Skill 20§c.",
+    "§4❣ §cRequires §aGarden Level 4§c.",
+    "§5§lEPIC AXE"
+  ],
+  "internalname": "PUMPKIN_DICER_3",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Pumpkin_Dicer_3.0",
+    "https://wiki.hypixel.net/Pumpkin_Dicer_3.0"
+  ],
+  "recipes": [
+    {
+      "A1": "JACOBS_TICKET:64",
+      "A2": "POLISHED_PUMPKIN:20",
+      "A3": "JACOBS_TICKET:64",
+      "B1": "POLISHED_PUMPKIN:20",
+      "B2": "PUMPKIN_DICER_2:1",
+      "B3": "POLISHED_PUMPKIN:20",
+      "C1": "JACOBS_TICKET:64",
+      "C2": "POLISHED_PUMPKIN:20",
+      "C3": "JACOBS_TICKET:64",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "PUMPKIN_DICER_3"
+    }
+  ]
+}

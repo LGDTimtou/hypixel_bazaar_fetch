@@ -1,0 +1,94 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Librarian (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"LIBRARIAN_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",display:{Lore:[0:\"\"],Name:\"§9Librarian (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "LIBRARIAN_NPC",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Librarian",
+    "https://wiki.hypixel.net/Librarian"
+  ],
+  "x": -69,
+  "y": 70,
+  "z": -80,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:30"
+      ],
+      "result": "EXP_BOTTLE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:20"
+      ],
+      "result": "BOOK"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:30"
+      ],
+      "result": "SHARPNESS;1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:40"
+      ],
+      "result": "SCAVENGER;1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:20"
+      ],
+      "result": "PROTECTION;1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:30"
+      ],
+      "result": "FIRE_PROTECTION;1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:25"
+      ],
+      "result": "PROJECTILE_PROTECTION;1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:20"
+      ],
+      "result": "BANE_OF_ARTHROPODS;1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:20"
+      ],
+      "result": "SMITE;1"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:30"
+      ],
+      "result": "EFFICIENCY;1"
+    }
+  ]
+}

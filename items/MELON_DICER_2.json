@@ -1,0 +1,48 @@
+{
+  "itemid": "minecraft:golden_axe",
+  "displayname": "§9Melon Dicer Mk. II",
+  "nbttag": "{ExtraAttributes:{id:\"MELON_DICER_2\",levelable_exp:0.0D,levelable_lvl:1},HideFlags:254,ItemModel:\"minecraft:golden_axe\",Unbreakable:1B,display:{Lore:[0:\"§7Melon Slice Fortune: §6+4\",1:\"§7Farming Wisdom: §3+1\",2:\"\",3:\"§7Level §a1 §8-> §62   §8(0/1k)\",4:\"§f§l§m                         §r §e0§6%\",5:\"\",6:\"§7§oSame as the Melon Dicer Mk. I, just\",7:\"§7§obetter!\",8:\"\",9:\"§eRight-click to view recipes!\",10:\"\",11:\"§8This item can be reforged!\",12:\"§4❣ §cRequires §aFarming Skill 15§c.\",13:\"§4❣ §cRequires §aGarden Level 6§c.\",14:\"§9§lRARE AXE\"],Name:\"§9Melon Dicer Mk. II\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Melon Slice Fortune: §6+4",
+    "§7Farming Wisdom: §3+1",
+    "",
+    "§7Level §a1 §8-> §62   §8(0/1k)",
+    "§f§l§m                         §r §e0§6%",
+    "",
+    "§7§oSame as the Melon Dicer Mk. I, just",
+    "§7§obetter!",
+    "",
+    "§eRight-click to view recipes!",
+    "",
+    "§8This item can be reforged!",
+    "§4❣ §cRequires §aFarming Skill 15§c.",
+    "§4❣ §cRequires §aGarden Level 6§c.",
+    "§9§lRARE AXE"
+  ],
+  "internalname": "MELON_DICER_2",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 3.7.1-dev+mc1.21.5+gf7e1a13",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Melon_Dicer_2.0",
+    "https://wiki.hypixel.net/Melon_Dicer_2.0"
+  ],
+  "recipes": [
+    {
+      "A1": "JACOBS_TICKET:16",
+      "A2": "ENCHANTED_MELON_BLOCK:16",
+      "A3": "JACOBS_TICKET:16",
+      "B1": "ENCHANTED_MELON_BLOCK:16",
+      "B2": "MELON_DICER:1",
+      "B3": "ENCHANTED_MELON_BLOCK:16",
+      "C1": "JACOBS_TICKET:16",
+      "C2": "ENCHANTED_MELON_BLOCK:16",
+      "C3": "JACOBS_TICKET:16",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "MELON_DICER_2"
+    }
+  ]
+}

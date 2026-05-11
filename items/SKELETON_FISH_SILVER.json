@@ -1,0 +1,24 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§5Skeleton Fish§r §7§lSILVER",
+  "nbttag": "{ExtraAttributes:{id:\"SKELETON_FISH_SILVER\"},HideFlags:254,ItemModel:\"minecraft:player_head\",SkullOwner:{Id:\"596cbeed-0fa5-35bc-8222-b39f9c83a40d\",Properties:{textures:[0:{Name:\"textures\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0MTIzODA3MTAwNSwKICAicHJvZmlsZUlkIiA6ICI0ZGU4MjQxNjJkZTU0MzU5YWFlMDBmMzQ1ZmMyZTY0MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOYXRoYW5fS2luZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMzk4NDZhZDFjOGZkMzQyMGZlYmZmNDU4NDAxYmFjZDkxZDFmNGZkNDQ0OTQwZjdmN2NiOWUyYTQ5MGNhNGRkIgogICAgfQogIH0KfQ\"}]},hypixelPopulated:1B},display:{Lore:[0:\"§7Found in Burning Desert.\",1:\"\",2:\"§7Bring this to §fOdger §7at the\",3:\"§7top of the Blazing Volcano.\",4:\"\",5:\"§8§l* §8Soulbound §8§l*\",6:\"§5§lEPIC TROPHY FISH\"],Name:\"§5Skeleton Fish§r §7§lSILVER\"}}",
+  "damage": 3,
+  "lore": [
+    "§7Found in Burning Desert.",
+    "",
+    "§7Bring this to §fOdger §7at the",
+    "§7top of the Blazing Volcano.",
+    "",
+    "§8§l* §8Soulbound §8§l*",
+    "§5§lEPIC TROPHY FISH"
+  ],
+  "internalname": "SKELETON_FISH_SILVER",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 3.4.0-dev+mc1.21.5+g4cd6602",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Trophy_Fishes",
+    "https://wiki.hypixel.net/Trophy_Fish"
+  ]
+}

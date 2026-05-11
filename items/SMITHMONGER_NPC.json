@@ -1,0 +1,66 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Smithmonger (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"SMITHMONGER_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",display:{Lore:[0:\"\"],Name:\"§9Smithmonger (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "SMITHMONGER_NPC",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Smithmonger",
+    "https://wiki.hypixel.net/Smithmonger"
+  ],
+  "x": 15,
+  "y": 63,
+  "z": -136,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:2000000"
+      ],
+      "result": "REFORGE_ANVIL"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:50000"
+      ],
+      "result": "MOIL_LOG"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:100000"
+      ],
+      "result": "DIRT_BOTTLE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:1000000"
+      ],
+      "result": "TOIL_LOG"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:1000000"
+      ],
+      "result": "REFINED_AMBER"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:1000000"
+      ],
+      "result": "BLESSED_FRUIT"
+    }
+  ]
+}

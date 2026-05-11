@@ -1,0 +1,21 @@
+{
+  "itemid": "minecraft:bow",
+  "displayname": "§aDecent Bow",
+  "nbttag": "{ExtraAttributes:{id:\"DECENT_BOW\"},HideFlags:254,ItemModel:\"minecraft:bow\",Unbreakable:1B,display:{Lore:[0:\"§7Damage: §c+45\",1:\"\",2:\"§8This item can be reforged!\",3:\"§a§lUNCOMMON BOW\"],Name:\"§aDecent Bow\"}}",
+  "damage": 0,
+  "lore": [
+    "§7Damage: §c+45",
+    "",
+    "§8This item can be reforged!",
+    "§a§lUNCOMMON BOW"
+  ],
+  "internalname": "DECENT_BOW",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 44.0.0+mc1.21.11",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Decent_Bow",
+    "https://wiki.hypixel.net/Decent_Bow"
+  ]
+}

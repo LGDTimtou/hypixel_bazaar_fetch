@@ -1,0 +1,38 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Plumber Joe (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"PLUMBER_JOE_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",display:{Lore:[0:\"\"],Name:\"§9Plumber Joe (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "PLUMBER_JOE_NPC",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Plumber_Joe",
+    "https://wiki.hypixel.net/Plumber_Joe"
+  ],
+  "x": 123,
+  "y": 74,
+  "z": -39,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:50"
+      ],
+      "result": "PLUMBER_SPONGE"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:25000"
+      ],
+      "result": "SUPER_SCRUBBER"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Shifty (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"SHIFTY_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",display:{Lore:[0:\"\"],Name:\"§9Shifty (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "SHIFTY_NPC",
+  "clickcommand": "viewrecipe",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Shifty",
+    "https://wiki.hypixel.net/Shifty"
+  ],
+  "x": 114,
+  "y": 73,
+  "z": 175,
+  "island": "hub",
+  "recipes": [
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:850"
+      ],
+      "result": "TUTTI_FRUTTI_POISON"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:3400"
+      ],
+      "result": "DR_PAPER"
+    },
+    {
+      "type": "npc_shop",
+      "cost": [
+        "SKYBLOCK_COIN:8500"
+      ],
+      "result": "SLAYER_ENERGY_DRINK"
+    }
+  ]
+}

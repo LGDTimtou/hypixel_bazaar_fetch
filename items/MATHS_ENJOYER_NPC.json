@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Maths Enjoyer (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"MATHS_ENJOYER_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",display:{Lore:[0:\"\"],Name:\"§9Maths Enjoyer (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "MATHS_ENJOYER_NPC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Maths_Enjoyer",
+    "https://wiki.hypixel.net/Maths_Enjoyer"
+  ],
+  "x": -73,
+  "y": 70,
+  "z": -63,
+  "island": "hub"
+}

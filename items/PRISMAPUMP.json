@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:prismarine",
+  "displayname": "§9Prismapump",
+  "nbttag": "{ExtraAttributes:{id:\"PRISMAPUMP\"},HideFlags:254,ItemModel:\"minecraft:dark_prismarine\",display:{Lore:[0:\"§6Ability: Pipeline  §e§lRIGHT CLICK\",1:\"§7When used, pumps water in the direction the\",2:\"§7player was facing.\",3:\"\",4:\"§9§lRARE\"],Name:\"§9Prismapump\"},ench:[]}",
+  "damage": 2,
+  "lore": [
+    "§6Ability: Pipeline  §e§lRIGHT CLICK",
+    "§7When used, pumps water in the direction the",
+    "§7player was facing.",
+    "",
+    "§9§lRARE"
+  ],
+  "internalname": "PRISMAPUMP",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Prismapump",
+    "https://wiki.hypixel.net/Prismapump"
+  ]
+}

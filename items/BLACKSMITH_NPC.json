@@ -1,0 +1,22 @@
+{
+  "itemid": "minecraft:skull",
+  "displayname": "§9Blacksmith (NPC)",
+  "nbttag": "{ExtraAttributes:{id:\"BLACKSMITH_NPC\"},HideFlags:254,ItemModel:\"minecraft:player_head\",display:{Lore:[0:\"\"],Name:\"§9Blacksmith (NPC)\"}}",
+  "damage": 3,
+  "lore": [
+    ""
+  ],
+  "internalname": "BLACKSMITH_NPC",
+  "clickcommand": "",
+  "crafttext": "",
+  "modver": "Firmament 43.0.0+mc1.21.10",
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Blacksmith",
+    "https://wiki.hypixel.net/Blacksmith"
+  ],
+  "x": 10,
+  "y": 63,
+  "z": -127,
+  "island": "hub"
+}
