@@ -207,20 +207,34 @@ def get_item_data(product_id, fetch_icon=True):
         
         if not fandom_url:
             return result
-            
-        scraper = cloudscraper.create_scraper()
-        html = scraper.get(fandom_url, timeout=10).text
-        soup = BeautifulSoup(html, 'html.parser')
         
-        img_meta = soup.find('meta', property='og:image')
-        if img_meta and img_meta.get('content'):
-            result["icon_url"] = img_meta['content']
+        try:
+            # Try with cloudscraper first
+            scraper = cloudscraper.create_scraper()
+            html = scraper.get(fandom_url, timeout=10).text
+            soup = BeautifulSoup(html, 'html.parser')
             
-        return result
+            img_meta = soup.find('meta', property='og:image')
+            if img_meta and img_meta.get('content'):
+                result["icon_url"] = img_meta['content']
+                return result
+        except Exception as scraper_error:
+            # Fallback: try with plain requests
+            try:
+                import requests
+                response = requests.get(fandom_url, timeout=10)
+                soup = BeautifulSoup(response.text, 'html.parser')
+                img_meta = soup.find('meta', property='og:image')
+                if img_meta and img_meta.get('content'):
+                    result["icon_url"] = img_meta['content']
+                    return result
+            except Exception as requests_error:
+                print(f"[Icon Fetch] Failed for {product_id}: cloudscraper={scraper_error}, requests={requests_error}")
+            
         return result
     except Exception as e:
         import traceback
-        st.error(f"Error in get_item_data({product_id}): {e}\n\n{traceback.format_exc()}")
+        print(f"[Icon Fetch Error] {product_id}: {e}")
         return result
 
 @st.cache_data(ttl=86400)
@@ -241,9 +255,25 @@ def get_recipe_image_map(product_id):
         fandom_url = next((url for url in info_urls if "fandom.com" in url), None)
         if not fandom_url:
             return img_map
+        
+        html = None
+        try:
+            # Try with cloudscraper first
+            scraper = cloudscraper.create_scraper()
+            html = scraper.get(fandom_url, timeout=10).text
+        except Exception as scraper_error:
+            # Fallback: try with plain requests
+            try:
+                import requests
+                response = requests.get(fandom_url, timeout=10)
+                html = response.text
+            except Exception as requests_error:
+                print(f"[Recipe Images] Failed for {product_id}: cloudscraper={scraper_error}, requests={requests_error}")
+                return img_map
+        
+        if not html:
+            return img_map
             
-        scraper = cloudscraper.create_scraper()
-        html = scraper.get(fandom_url, timeout=10).text
         soup = BeautifulSoup(html, 'html.parser')
         
         for img in soup.find_all('img'):
@@ -260,10 +290,8 @@ def get_recipe_image_map(product_id):
             img_map[alt_clean] = raw_src
             
         return img_map
-        return img_map
     except Exception as e:
-        import traceback
-        st.error(f"Error in get_recipe_image_map({product_id}): {e}\n\n{traceback.format_exc()}")
+        print(f"[Recipe Images Error] {product_id}: {e}")
         return img_map
 
 def render_crafting_table(recipe_slots, result_id, result_amount):
